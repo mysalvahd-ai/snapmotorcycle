@@ -329,7 +329,7 @@ code: "SN25ALL0000"
 name: "CFMoto",
 modelKey: "allEuro5",
 yearKey: "from2025",
-code: "SN25BMWCF00"
+code: "SN25CFM0000"
 }
 ];
 
