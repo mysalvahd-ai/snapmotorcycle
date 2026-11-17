@@ -3,60 +3,30 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="theme-color" content="#ffffff" />
-<meta
-name="description"
-content="SNAP: installa uno scarico completo racing mantenendo la gestione motore originale. Nessuna rimappatura necessaria."
-/>
-<title>SNAP — Racing exhaust. Original intelligence.</title>
+<meta name="theme-color" content="#1d1d1f" />
+<meta name="description" content="Attiva lo scarico racing con SNAP. Senza rimappare e mantenendo intatta la gestione originale del motore." />
+<title>SNAP — Il tuo scarico racing, con un click</title>
 <link rel="icon" href="assets/snap-logo.svg" />
 <link rel="stylesheet" href="styles.css" />
 <script src="app.js" defer></script>
 </head>
-
 <body>
-<a class="skip-link" href="#main" data-i18n="skip">
-Vai al contenuto
-</a>
+<a class="skip-link" href="#main" data-i18n="skip">Vai al contenuto</a>
 
 <header class="site-header">
-<a class="brand" href="#top" aria-label="SNAP home">
-<span>SNAP</span>
-</a>
-
+<a class="brand" href="#top" aria-label="SNAP home">SNAP</a>
 <nav class="desktop-nav" aria-label="Navigazione principale">
 <a href="#principle" data-i18n="navPrinciple">Principio</a>
 <a href="#compatibility" data-i18n="navCompatibility">Compatibilità</a>
 <a href="#installation" data-i18n="navInstallation">Installazione</a>
 </nav>
-
 <div class="header-actions">
-<label
-class="language-select-label"
-for="language-select"
-data-i18n="languageLabel"
->
-Lingua
-</label>
-
+<label class="language-select-label" for="language-select" data-i18n="languageLabel">Lingua</label>
 <select id="language-select" class="language-select" aria-label="Lingua">
-<option value="it">IT</option>
-<option value="en">EN</option>
-<option value="de">DE</option>
-<option value="fr">FR</option>
-<option value="es">ES</option>
+<option value="it">IT</option><option value="en">EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
 </select>
-
-<button
-class="menu-toggle"
-type="button"
-aria-expanded="false"
-aria-controls="mobile-menu"
->
-<span></span>
-<span></span>
-<span></span>
-<span class="sr-only" data-i18n="menu">Menu</span>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+<span></span><span></span><span></span><span class="sr-only" data-i18n="menu">Menu</span>
 </button>
 </div>
 </header>
@@ -64,188 +34,119 @@ aria-controls="mobile-menu"
 <div id="mobile-menu" class="mobile-menu" hidden>
 <nav aria-label="Navigazione mobile">
 <a href="#principle" data-i18n="navPrinciple">Principio</a>
-<a href="#compatibility" data-i18n="navCompatibility">
-Compatibilità
-</a>
-<a href="#installation" data-i18n="navInstallation">
-Installazione
-</a>
-<a href="#distribution" data-i18n="navDistribution">
-Distribuzione
-</a>
+<a href="#compatibility" data-i18n="navCompatibility">Compatibilità</a>
+<a href="#installation" data-i18n="navInstallation">Installazione</a>
+<a href="#distribution" data-i18n="navDistribution">Distribuzione</a>
 </nav>
 </div>
 
 <main id="main">
 <section class="hero section-shell" id="top">
 <div class="hero-kicker reveal">
-<span class="index">01</span>
-<p>SNAP · Plug’n Ride</p>
+<span class="index">SNAP</span>
+<p data-i18n="plugRide">Plug’n Ride</p>
 </div>
-
-<h1 class="hero-title reveal" data-i18n-html="heroTitle">
-Il tuo scarico racing<br />
-in un click.
-</h1>
-
+<h1 class="hero-title reveal" data-i18n-html="heroTitle">ATTIVA LO SCARICO RACING<br>CON UN CLICK.</h1>
 <div class="hero-bottom reveal">
-<p class="hero-statement" data-i18n-html="heroStatement">
-Tutto il carattere dello scarico racing.<br />
-Tutta l’intelligenza della tua moto.
-<span>Intatta.</span>
-</p>
-
-<div class="hero-copy-group">
-<p class="hero-copy" data-i18n="heroCopy">
-Installa uno scarico completo racing mantenendo intatta la
-gestione motore originale.
-</p>
-
-<p class="hero-no-remap" data-i18n="heroNoRemap">
-Nessuna rimappatura necessaria
-</p>
+<p class="hero-copy" data-i18n="heroCopy">Senza rimappare. Mantenendo intatta la gestione originale del motore.</p>
+<p class="hero-statement" data-i18n="heroStatement">Nessuno può eguagliare l’intelligenza di chi ha progettato la tua moto.</p>
 </div>
-</div>
+<p class="hero-note" data-i18n="safeReversible">Una soluzione Plug’n Ride, sicura e reversibile, per le moto Euro 5+.</p>
+</section>
+
+<section class="gallery" aria-label="SNAP in immagini">
+<figure class="gallery-card gallery-product reveal">
+<img src="assets/snap-scene-01.jpg" alt="Dispositivo SNAP, in primo piano" />
+<figcaption data-i18n="galleryProduct">SNAP · Plug’n Ride</figcaption>
+</figure>
+<figure class="gallery-card gallery-rider reveal">
+<img src="assets/snap-scene-02.jpg" alt="Motociclista con il dispositivo SNAP" />
+<figcaption data-i18n="galleryRider">Collega SNAP alla tua moto.</figcaption>
+</figure>
+<figure class="gallery-card gallery-bike reveal">
+<img src="assets/snap-scene-03.jpg" alt="Moto sportiva" />
+<figcaption data-i18n="galleryBike">Scarico racing. Nessuna rimappatura.</figcaption>
+</figure>
+<figure class="gallery-card gallery-installed reveal">
+<img src="assets/snap-scene-04.jpg" alt="SNAP installato sulla moto" />
+<figcaption data-i18n="galleryInstalled">La gestione originale resta intatta.</figcaption>
+</figure>
+<figure class="gallery-card gallery-connector reveal">
+<img src="assets/snap-scene-05.jpg" alt="Connettore SNAP" />
+<figcaption data-i18n="galleryConnector">Connessione alla presa diagnostica originale.</figcaption>
+</figure>
 </section>
 
 <section class="question section-shell" id="principle">
-<div class="section-marker reveal">
-<span class="index">02</span>
-<span data-i18n="principleLabel">Principio</span>
-</div>
-
+<div class="section-marker reveal"><span class="index">01</span><span data-i18n="principleLabel">Gestione motore</span></div>
 <div class="question-grid">
-<h2 class="display-heading reveal" data-i18n-html="fuelQuestion">
-La carburazione<br />
-rimane corretta?
-</h2>
-
+<h2 class="display-heading reveal" data-i18n-html="fuelQuestion">ANCHE CON UNO SCARICO RACING,<br>LA CENTRALINA CONTINUA A REGOLARE LA MISCELA.</h2>
 <div class="answer reveal">
-<p class="answer-yes" data-i18n="yes">Sì.</p>
-
-<p data-i18n="fuelAnswer">
-Le centraline di ultima generazione, insieme alle sonde lambda
-originali, controllano e correggono la carburazione continuamente
-e in tempo reale, anche con uno scarico racing.
-</p>
+<p class="answer-yes" data-i18n="yes">Le sonde lambda originali restano collegate.</p>
+<p data-i18n="fuelAnswer">La sonda che controlla la miscela continua a comunicare con la centralina, che utilizza i suoi segnali per correggerla secondo la gestione originale del motore.</p>
 </div>
 </div>
-</section>
-
-<section class="compatibility section-shell" id="compatibility">
-<div class="section-marker reveal">
-<span class="index">03</span>
-<span data-i18n="compatibilityLabel">Compatibilità</span>
-</div>
-
-<div class="section-intro reveal">
-<h2 class="display-heading" data-i18n="compatibilityTitle">
-Euro 5+
-</h2>
-
-<p data-i18n="selectBrand">Seleziona il marchio.</p>
-</div>
-
-<div class="brand-list reveal" id="brand-list"></div>
 </section>
 
 <section class="installation section-shell" id="installation">
-<div class="section-marker reveal">
-<span class="index">04</span>
-<span data-i18n="installationLabel">
-Diagnostica e installazione
-</span>
-</div>
-
+<div class="section-marker reveal"><span class="index">02</span><span data-i18n="installationLabel">Diagnostica e installazione</span></div>
 <article class="statement reveal">
-<h2 class="display-heading" data-i18n-html="allActiveTitle">
-Tutto resta<br />
-attivo.
-</h2>
-
-<p data-i18n="allActiveCopy">
-Tutte le funzioni diagnostiche originali della moto rimangono
-operative.
-</p>
+<h2 class="display-heading" data-i18n-html="allActiveTitle">TUTTO RESTA<br>ATTIVO.</h2>
+<p data-i18n="allActiveCopy">Tutte le funzioni diagnostiche originali della moto restano operative.</p>
 </article>
-
 <article class="statement statement-offset reveal">
-<h2 class="display-heading" data-i18n-html="sensorsTitle">
-Tutte le sonde devono<br />
-rimanere collegate.
-</h2>
-
+<h2 class="display-heading" data-i18n-html="sensorsTitle">TUTTE LE SONDE DEVONO<br>RIMANERE COLLEGATE.</h2>
 <div class="statement-copy">
-<p data-i18n="sensorsCopy1">
-Le sonde lambda originali continuano a lavorare con la centralina
-della moto.
-</p>
-
-<p data-i18n="sensorsCopy2">
-La sonda post-catalizzatore deve rimanere collegata al cablaggio
-anche quando si trova fuori dallo scarico racing.
-</p>
-
-<p data-i18n="sensorsCopy3">
-SNAP si collega alla presa diagnostica originale senza modificare
-il cablaggio della moto.
-</p>
+<p data-i18n="sensorsCopy1">Le sonde lambda originali continuano a comunicare con la centralina della moto.</p>
+<p data-i18n="sensorsCopy2">La sonda post-catalizzatore deve rimanere collegata al cablaggio, anche quando è posizionata fuori dallo scarico racing.</p>
+<p data-i18n="sensorsCopy3">SNAP si collega alla presa diagnostica originale in pochi secondi, senza ulteriori interventi.</p>
 </div>
 </article>
 </section>
 
-<section class="distribution section-shell" id="distribution">
-<div class="section-marker reveal">
-<span class="index">05</span>
-<span data-i18n="distributionLabel">Distribuzione</span>
+<section class="compatibility section-shell" id="compatibility">
+<div class="section-marker reveal"><span class="index">03</span><span data-i18n="compatibilityLabel">Compatibilità</span></div>
+<div class="section-intro reveal">
+<h2 class="display-heading" data-i18n="compatibilityTitle">EURO 5+</h2>
+<p data-i18n="compatibilityIntro">La compatibilità varia in base al marchio e all’anno del modello.</p>
 </div>
+<div class="compatibility-grid reveal">
+<article class="compatibility-card">
+<span class="compatibility-index">01</span>
+<h3>Harley-Davidson</h3>
+<p data-i18n="compatHarley">Compatibile con tutti i modelli dal 2021 in poi.</p>
+</article>
+<article class="compatibility-card">
+<span class="compatibility-index">02</span>
+<h3 data-i18n="compatOtherTitle">Altri marchi</h3>
+<p class="compatibility-brands" data-i18n="compatBrands">BMW, Honda, Kawasaki, Yamaha, Suzuki, Ducati, Triumph, Aprilia, Moto Guzzi, Piaggio, CFMOTO, KTM e Indian Motorcycle.</p>
+<p data-i18n="compatBrandsYears">Compatibile con tutti i modelli Euro 5+ dal 2025 in poi.</p>
+</article>
+</div>
+</section>
 
+<section class="distribution section-shell" id="distribution">
+<div class="section-marker reveal"><span class="index">04</span><span data-i18n="distributionLabel">Distribuzione</span></div>
 <div class="distribution-grid reveal">
-<h2 class="display-heading" data-i18n-html="distributionTitle">
-Distribuzione esclusiva<br />
-in Europa.
-</h2>
-
-<p data-i18n="distributionCopy">
-SNAP è distribuito in esclusiva in Europa da Parts Europe.
-</p>
+<h2 class="display-heading" data-i18n-html="distributionTitle">DISTRIBUITO IN ESCLUSIVA<br>IN EUROPA.</h2>
+<p data-i18n="distributionCopy">SNAP è distribuito in esclusiva in Europa da Parts Europe.</p>
 </div>
 </section>
 
 <section class="warning section-shell">
-<div class="warning-label" data-i18n="warningLabel">
-Avvertenze
-</div>
-
+<div class="warning-label" data-i18n="warningLabel">Avvertenze</div>
 <div class="warning-copy">
-<p data-i18n="warning1">
-SNAP è destinato esclusivamente all’uso sportivo su pista chiusa.
-</p>
-
-<p data-i18n="warning2">
-Non è omologato per l’utilizzo su strada.
-</p>
-
-<p data-i18n="warning3">
-Prima dell’installazione verificare sempre la compatibilità con
-marca, modello e anno della motocicletta.
-</p>
+<p data-i18n="warning1">L’attivazione dello scarico racing tramite SNAP è destinata esclusivamente all’uso sportivo su pista chiusa.</p>
+<p data-i18n="warning2">Lo scarico racing non è omologato per l’uso su strada.</p>
+<p data-i18n="warning3">Prima dell’installazione, verifica sempre la compatibilità con marca, modello e anno della moto.</p>
 </div>
 </section>
 </main>
 
 <footer class="site-footer section-shell">
-<a class="footer-brand" href="#top">
-<span>SNAP</span>
-</a>
-
+<a class="footer-brand" href="#top">SNAP</a>
 <p>© <span id="year"></span> SNAP</p>
-
-<button class="back-to-top" type="button" data-i18n="backTop">
-Torna su ↑
-</button>
+<button class="back-to-top" type="button" data-i18n="backTop">Torna su ↑</button>
 </footer>
 </body>
 </html>
-
-
