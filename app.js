@@ -1,457 +1,74 @@
 const translations = {
 it: {
-skip: "Vai al contenuto",
-menu: "Menu",
-languageLabel: "Lingua",
-navPrinciple: "Principio",
-navCompatibility: "Compatibilità",
-navInstallation: "Installazione",
-navDistribution: "Distribuzione",
-heroTitle: "Il tuo scarico racing<br>in un click.",
-heroStatement: "Tutto il carattere dello scarico racing.<br>Tutta l’intelligenza della tua moto. <span>Intatta.</span>",
-heroCopy: "Installa uno scarico completo racing mantenendo intatta la gestione motore originale.",
-heroNoRemap: "Nessuna rimappatura necessaria",
-plugRide: "Plug’n Ride",
-safeReversible: "Sicuro e reversibile",
-modernMotorcycles: "Moto di ultima generazione",
-noRemap: "Nessuna rimappatura",
-originalEcu: "ECU originale",
-principleLabel: "Principio",
-fuelQuestion: "La carburazione<br>rimane corretta?",
-yes: "Sì.",
-fuelAnswer: "Le centraline di ultima generazione, insieme alle sonde lambda originali, controllano e correggono la carburazione continuamente e in tempo reale, anche con uno scarico racing.",
-compatibilityLabel: "Compatibilità",
-compatibilityTitle: "Euro 5+",
-selectBrand: "Seleziona il marchio.",
-installationLabel: "Diagnostica e installazione",
-allActiveTitle: "Tutto resta<br>attivo.",
-allActiveCopy: "Tutte le funzioni diagnostiche originali della moto rimangono operative.",
-sensorsTitle: "Tutte le sonde devono<br>rimanere collegate.",
-sensorsCopy1: "Le sonde lambda originali continuano a lavorare con la centralina della moto.",
-sensorsCopy2: "La sonda post-catalizzatore deve rimanere collegata al cablaggio anche quando si trova fuori dallo scarico racing.",
-sensorsCopy3: "SNAP si collega alla presa diagnostica originale senza modificare il cablaggio della moto.",
-distributionLabel: "Distribuzione",
-distributionTitle: "Distribuzione esclusiva<br>in Europa.",
-distributionCopy: "SNAP è distribuito in esclusiva in Europa da Parts Europe.",
-warningLabel: "Avvertenze",
-warning1: "SNAP è destinato esclusivamente all’uso sportivo su pista chiusa.",
-warning2: "Non è omologato per l’utilizzo su strada.",
-warning3: "Prima dell’installazione verificare sempre la compatibilità con marca, modello e anno della motocicletta.",
-backTop: "Torna su ↑",
-models: "Modelli",
-years: "Anni",
-code: "Codice",
-allEuro5: "Tutti i modelli Euro 5+",
-allEuro5and5: "Tutti i modelli Euro 5+ ed Euro 5",
-from2021: "Dal 2021",
-from2024: "Dal 2024",
-from2025: "Dal 2025 (alcuni modelli 2024)",
-dedicated: "Codice dedicato",
-yamahaNote: "Nota Yamaha: sui modelli Euro 5+ la spia può spegnersi al secondo avviamento. È il normale comportamento della strategia diagnostica Yamaha."
+skip: "Vai al contenuto", navPrinciple: "Principio", navCompatibility: "Compatibilità", navInstallation: "Installazione", navDistribution: "Distribuzione", languageLabel: "Lingua", menu: "Menu", plugRide: "Plug’n Ride",
+heroTitle: "ATTIVA LO SCARICO RACING<br>CON UN CLICK.", heroCopy: "Senza rimappare. Mantenendo intatta la gestione originale del motore.", heroStatement: "Nessuno può eguagliare l’intelligenza di chi ha progettato la tua moto.", safeReversible: "Una soluzione Plug’n Ride, sicura e reversibile, per le moto Euro 5+.",
+galleryProduct: "SNAP · Plug’n Ride", galleryRider: "Collega SNAP alla tua moto.", galleryBike: "Scarico racing. Nessuna rimappatura.", galleryInstalled: "La gestione originale resta intatta.", galleryConnector: "Connessione alla presa diagnostica originale.", principleLabel: "Gestione motore", fuelQuestion: "ANCHE CON UNO SCARICO RACING,<br>LA CENTRALINA CONTINUA A REGOLARE LA MISCELA.", yes: "Le sonde lambda originali restano collegate.", fuelAnswer: "La sonda che controlla la miscela continua a comunicare con la centralina, che utilizza i suoi segnali per correggerla secondo la gestione originale del motore.",
+installationLabel: "Diagnostica e installazione", allActiveTitle: "TUTTO RESTA<br>ATTIVO.", allActiveCopy: "Tutte le funzioni diagnostiche originali della moto restano operative.", sensorsTitle: "TUTTE LE SONDE DEVONO<br>RIMANERE COLLEGATE.", sensorsCopy1: "Le sonde lambda originali continuano a comunicare con la centralina della moto.", sensorsCopy2: "La sonda post-catalizzatore deve rimanere collegata al cablaggio, anche quando è posizionata fuori dallo scarico racing.", sensorsCopy3: "SNAP si collega alla presa diagnostica originale in pochi secondi, senza ulteriori interventi.",
+compatibilityLabel: "Compatibilità", compatibilityTitle: "EURO 5+", compatibilityIntro: "La compatibilità varia in base al marchio e all’anno del modello.", compatHarley: "Compatibile con tutti i modelli dal 2021 in poi.", compatOtherTitle: "Altri marchi", compatBrands: "BMW, Honda, Kawasaki, Yamaha, Suzuki, Ducati, Triumph, Aprilia, Moto Guzzi, Piaggio, CFMOTO, KTM e Indian Motorcycle.", compatBrandsYears: "Compatibile con tutti i modelli Euro 5+ dal 2025 in poi.",
+distributionLabel: "Distribuzione", distributionTitle: "DISTRIBUITO IN ESCLUSIVA<br>IN EUROPA.", distributionCopy: "SNAP è distribuito in esclusiva in Europa da Parts Europe.", warningLabel: "Avvertenze", warning1: "L’attivazione dello scarico racing tramite SNAP è destinata esclusivamente all’uso sportivo su pista chiusa.", warning2: "Lo scarico racing non è omologato per l’uso su strada.", warning3: "Prima dell’installazione, verifica sempre la compatibilità con marca, modello e anno della moto.", backTop: "Torna su ↑"
 },
-
 en: {
-skip: "Skip to content",
-menu: "Menu",
-languageLabel: "Language",
-navPrinciple: "Principle",
-navCompatibility: "Compatibility",
-navInstallation: "Installation",
-navDistribution: "Distribution",
-heroTitle: "Your racing exhaust<br>in one click.",
-heroStatement: "All the character of a racing exhaust.<br>All the intelligence of your motorcycle. <span>Intact.</span>",
-heroCopy: "Install a full racing exhaust while keeping the original engine management intact.",
-heroNoRemap: "No remapping required",
-plugRide: "Plug’n Ride",
-safeReversible: "Safe and reversible",
-modernMotorcycles: "Latest-generation motorcycles",
-noRemap: "No remapping",
-originalEcu: "Original ECU",
-principleLabel: "Principle",
-fuelQuestion: "Does the fueling<br>remain correct?",
-yes: "Yes.",
-fuelAnswer: "Latest-generation ECUs, together with the original lambda sensors, continuously monitor and correct fueling in real time, even with a racing exhaust.",
-compatibilityLabel: "Compatibility",
-compatibilityTitle: "Euro 5+",
-selectBrand: "Select the brand.",
-installationLabel: "Diagnostics and installation",
-allActiveTitle: "Everything remains<br>active.",
-allActiveCopy: "All of the motorcycle’s original diagnostic functions remain operational.",
-sensorsTitle: "All sensors must<br>remain connected.",
-sensorsCopy1: "The original lambda sensors continue to work with the motorcycle ECU.",
-sensorsCopy2: "The post-catalyst sensor must remain connected to the wiring harness even when it is positioned outside the racing exhaust.",
-sensorsCopy3: "SNAP connects to the original diagnostic port without modifying the motorcycle wiring.",
-distributionLabel: "Distribution",
-distributionTitle: "Exclusive distribution<br>in Europe.",
-distributionCopy: "SNAP is distributed exclusively in Europe by Parts Europe.",
-warningLabel: "Warning",
-warning1: "SNAP is intended exclusively for sporting use on closed tracks.",
-warning2: "It is not approved for road use.",
-warning3: "Always verify compatibility with the motorcycle brand, model and year before installation.",
-backTop: "Back to top ↑",
-models: "Models",
-years: "Years",
-code: "Part number",
-allEuro5: "All Euro 5+ models",
-allEuro5and5: "All Euro 5+ and Euro 5 models",
-from2021: "From 2021",
-from2024: "From 2024",
-from2025: "From 2025 (selected 2024 models)",
-dedicated: "Dedicated part number",
-yamahaNote: "Yamaha note: on Euro 5+ models the warning light may switch off after the second start. This is the normal behaviour of the Yamaha diagnostic strategy."
+skip: "Skip to content", navPrinciple: "How it works", navCompatibility: "Compatibility", navInstallation: "Installation", navDistribution: "Distribution", languageLabel: "Language", menu: "Menu", plugRide: "Plug’n Ride",
+heroTitle: "ACTIVATE YOUR RACING EXHAUST<br>WITH ONE CLICK.", heroCopy: "No remapping. The motorcycle’s original engine management stays intact.", heroStatement: "No one can match the intelligence of the people who designed your motorcycle.", safeReversible: "A safe, reversible Plug’n Ride solution for Euro 5+ motorcycles.",
+galleryProduct: "SNAP · Plug’n Ride", galleryRider: "Connect SNAP to your motorcycle.", galleryBike: "Racing exhaust. No remapping.", galleryInstalled: "Original engine management stays intact.", galleryConnector: "Connection to the original diagnostic port.", principleLabel: "Engine management", fuelQuestion: "EVEN WITH A RACING EXHAUST,<br>THE ECU CONTINUES TO REGULATE THE MIXTURE.", yes: "The original lambda sensors stay connected.", fuelAnswer: "The sensor that monitors the mixture continues to communicate with the ECU. The ECU uses its signals to make corrections within the motorcycle’s original engine management.",
+installationLabel: "Diagnostics and installation", allActiveTitle: "EVERYTHING<br>STAYS ACTIVE.", allActiveCopy: "All of the motorcycle’s original diagnostic functions remain operational.", sensorsTitle: "ALL SENSORS MUST<br>STAY CONNECTED.", sensorsCopy1: "The original lambda sensors continue to communicate with the motorcycle’s ECU.", sensorsCopy2: "The post-catalytic-converter sensor must stay connected to the wiring, even when positioned outside the racing exhaust.", sensorsCopy3: "SNAP connects to the original diagnostic port in seconds, with no further intervention.",
+compatibilityLabel: "Compatibility", compatibilityTitle: "EURO 5+", compatibilityIntro: "Compatibility depends on the motorcycle brand and model year.", compatHarley: "Compatible with all models from 2021 onwards.", compatOtherTitle: "Other brands", compatBrands: "BMW, Honda, Kawasaki, Yamaha, Suzuki, Ducati, Triumph, Aprilia, Moto Guzzi, Piaggio, CFMOTO, KTM and Indian Motorcycle.", compatBrandsYears: "Compatible with all Euro 5+ models from 2025 onwards.",
+distributionLabel: "Distribution", distributionTitle: "EXCLUSIVE DISTRIBUTION<br>IN EUROPE.", distributionCopy: "SNAP is exclusively distributed in Europe by Parts Europe.", warningLabel: "Warnings", warning1: "Use of the racing exhaust with SNAP is intended exclusively for sporting use on closed tracks.", warning2: "The racing exhaust is not approved for road use.", warning3: "Always verify compatibility with the motorcycle brand, model and year before installation.", backTop: "Back to top ↑"
 },
-
 de: {
-skip: "Zum Inhalt",
-menu: "Menü",
-languageLabel: "Sprache",
-navPrinciple: "Prinzip",
-navCompatibility: "Kompatibilität",
-navInstallation: "Installation",
-navDistribution: "Vertrieb",
-heroTitle: "Dein Racing-Auspuff<br>mit einem Klick.",
-heroStatement: "Der volle Charakter des Racing-Auspuffs.<br>Die ganze Intelligenz deines Motorrads. <span>Unverändert.</span>",
-heroCopy: "Installiere eine komplette Racing-Auspuffanlage und erhalte das originale Motormanagement.",
-heroNoRemap: "Kein Remapping erforderlich",
-plugRide: "Plug’n Ride",
-safeReversible: "Sicher und reversibel",
-modernMotorcycles: "Motorräder der neuesten Generation",
-noRemap: "Kein Remapping",
-originalEcu: "Originales Steuergerät",
-principleLabel: "Prinzip",
-fuelQuestion: "Bleibt die Gemischbildung<br>korrekt?",
-yes: "Ja.",
-fuelAnswer: "Steuergeräte der neuesten Generation überwachen und korrigieren gemeinsam mit den originalen Lambdasonden die Gemischbildung kontinuierlich und in Echtzeit – auch mit einer Racing-Auspuffanlage.",
-compatibilityLabel: "Kompatibilität",
-compatibilityTitle: "Euro 5+",
-selectBrand: "Marke auswählen.",
-installationLabel: "Diagnose und Installation",
-allActiveTitle: "Alles bleibt<br>aktiv.",
-allActiveCopy: "Alle originalen Diagnosefunktionen des Motorrads bleiben vollständig funktionsfähig.",
-sensorsTitle: "Alle Sonden müssen<br>angeschlossen bleiben.",
-sensorsCopy1: "Die originalen Lambdasonden arbeiten weiterhin mit dem Steuergerät des Motorrads.",
-sensorsCopy2: "Die Sonde hinter dem Katalysator muss mit dem Kabelbaum verbunden bleiben, auch wenn sie sich außerhalb der Racing-Auspuffanlage befindet.",
-sensorsCopy3: "SNAP wird ohne Änderungen am Kabelbaum an den originalen Diagnoseanschluss angeschlossen.",
-distributionLabel: "Vertrieb",
-distributionTitle: "Exklusiver Vertrieb<br>in Europa.",
-distributionCopy: "SNAP wird in Europa exklusiv von Parts Europe vertrieben.",
-warningLabel: "Hinweise",
-warning1: "SNAP ist ausschließlich für den sportlichen Einsatz auf abgesperrten Strecken bestimmt.",
-warning2: "Nicht für den Straßenverkehr zugelassen.",
-warning3: "Vor der Installation immer die Kompatibilität mit Marke, Modell und Baujahr prüfen.",
-backTop: "Nach oben ↑",
-models: "Modelle",
-years: "Baujahre",
-code: "Artikelnummer",
-allEuro5: "Alle Euro 5+ Modelle",
-allEuro5and5: "Alle Euro 5+ und Euro 5 Modelle",
-from2021: "Ab 2021",
-from2024: "Ab 2024",
-from2025: "Ab 2025 (einige Modelle 2024)",
-dedicated: "Eigene Artikelnummer",
-yamahaNote: "Hinweis Yamaha: Bei Euro 5+ Modellen kann die Warnleuchte erst nach dem zweiten Start erlöschen. Dies entspricht der normalen Yamaha-Diagnosestrategie."
+skip: "Zum Inhalt springen", navPrinciple: "Funktionsweise", navCompatibility: "Kompatibilität", navInstallation: "Installation", navDistribution: "Vertrieb", languageLabel: "Sprache", menu: "Menü", plugRide: "Plug’n Ride",
+heroTitle: "AKTIVIERE DEINEN RACING-AUSPUFF<br>MIT EINEM KLICK.", heroCopy: "Kein Remapping. Das originale Motormanagement bleibt erhalten.", heroStatement: "Niemand übertrifft die Intelligenz der Menschen, die dein Motorrad entwickelt haben.", safeReversible: "Eine sichere, reversible Plug’n Ride-Lösung für Euro-5+-Motorräder.",
+galleryProduct: "SNAP · Plug’n Ride", galleryRider: "Verbinde SNAP mit deinem Motorrad.", galleryBike: "Racing-Auspuff. Kein Remapping.", galleryInstalled: "Das originale Motormanagement bleibt erhalten.", galleryConnector: "Anschluss an die originale Diagnoseschnittstelle.", principleLabel: "Motormanagement", fuelQuestion: "AUCH MIT RACING-AUSPUFF<br>REGELT DAS STEUERGERÄT WEITERHIN DAS GEMISCH.", yes: "Die originalen Lambdasonden bleiben angeschlossen.", fuelAnswer: "Die Sonde zur Gemischüberwachung kommuniziert weiterhin mit dem Steuergerät. Dieses nutzt ihre Signale, um das Gemisch entsprechend dem originalen Motormanagement zu korrigieren.",
+installationLabel: "Diagnose und Installation", allActiveTitle: "ALLES BLEIBT<br>AKTIV.", allActiveCopy: "Alle originalen Diagnosefunktionen des Motorrads bleiben betriebsbereit.", sensorsTitle: "ALLE SENSOREN MÜSSEN<br>ANGESCHLOSSEN BLEIBEN.", sensorsCopy1: "Die originalen Lambdasonden kommunizieren weiterhin mit dem Steuergerät des Motorrads.", sensorsCopy2: "Die Sonde hinter dem Katalysator muss mit dem Kabelbaum verbunden bleiben, auch wenn sie außerhalb des Racing-Auspuffs sitzt.", sensorsCopy3: "SNAP wird in wenigen Sekunden ohne weitere Eingriffe an die originale Diagnoseschnittstelle angeschlossen.",
+compatibilityLabel: "Kompatibilität", compatibilityTitle: "EURO 5+", compatibilityIntro: "Die Kompatibilität hängt von Marke und Modelljahr ab.", compatHarley: "Kompatibel mit allen Modellen ab 2021.", compatOtherTitle: "Weitere Marken", compatBrands: "BMW, Honda, Kawasaki, Yamaha, Suzuki, Ducati, Triumph, Aprilia, Moto Guzzi, Piaggio, CFMOTO, KTM und Indian Motorcycle.", compatBrandsYears: "Kompatibel mit allen Euro-5+-Modellen ab 2025.",
+distributionLabel: "Vertrieb", distributionTitle: "EXKLUSIVER VERTRIEB<br>IN EUROPA.", distributionCopy: "SNAP wird in Europa exklusiv von Parts Europe vertrieben.", warningLabel: "Warnhinweise", warning1: "Die Verwendung des Racing-Auspuffs mit SNAP ist ausschließlich für den sportlichen Einsatz auf abgesperrten Strecken bestimmt.", warning2: "Der Racing-Auspuff ist nicht für den Straßenverkehr zugelassen.", warning3: "Vor der Installation immer die Kompatibilität mit Marke, Modell und Baujahr prüfen.", backTop: "Nach oben ↑"
 },
-
 fr: {
-skip: "Aller au contenu",
-menu: "Menu",
-languageLabel: "Langue",
-navPrinciple: "Principe",
-navCompatibility: "Compatibilité",
-navInstallation: "Installation",
-navDistribution: "Distribution",
-heroTitle: "Votre échappement racing<br>en un clic.",
-heroStatement: "Tout le caractère de l’échappement racing.<br>Toute l’intelligence de votre moto. <span>Intacte.</span>",
-heroCopy: "Installez un échappement racing complet tout en conservant intacte la gestion moteur d’origine.",
-heroNoRemap: "Aucune reprogrammation nécessaire",
-plugRide: "Plug’n Ride",
-safeReversible: "Sûr et réversible",
-modernMotorcycles: "Motos de dernière génération",
-noRemap: "Aucune reprogrammation",
-originalEcu: "ECU d’origine",
-principleLabel: "Principe",
-fuelQuestion: "La carburation reste-t-elle<br>correcte ?",
-yes: "Oui.",
-fuelAnswer: "Les ECU de dernière génération, avec les sondes lambda d’origine, contrôlent et corrigent en permanence la carburation en temps réel, même avec un échappement racing.",
-compatibilityLabel: "Compatibilité",
-compatibilityTitle: "Euro 5+",
-selectBrand: "Sélectionnez la marque.",
-installationLabel: "Diagnostic et installation",
-allActiveTitle: "Tout reste<br>actif.",
-allActiveCopy: "Toutes les fonctions de diagnostic d’origine de la moto restent opérationnelles.",
-sensorsTitle: "Toutes les sondes doivent<br>rester connectées.",
-sensorsCopy1: "Les sondes lambda d’origine continuent de fonctionner avec l’ECU de la moto.",
-sensorsCopy2: "La sonde post-catalyseur doit rester connectée au faisceau, même lorsqu’elle se trouve à l’extérieur de l’échappement racing.",
-sensorsCopy3: "SNAP se connecte à la prise diagnostic d’origine sans modifier le faisceau de la moto.",
-distributionLabel: "Distribution",
-distributionTitle: "Distribution exclusive<br>en Europe.",
-distributionCopy: "SNAP est distribué en exclusivité en Europe par Parts Europe.",
-warningLabel: "Avertissements",
-warning1: "SNAP est exclusivement destiné à un usage sportif sur circuit fermé.",
-warning2: "Non homologué pour une utilisation sur route.",
-warning3: "Avant l’installation, vérifiez toujours la compatibilité avec la marque, le modèle et l’année de la moto.",
-backTop: "Retour en haut ↑",
-models: "Modèles",
-years: "Années",
-code: "Référence",
-allEuro5: "Tous les modèles Euro 5+",
-allEuro5and5: "Tous les modèles Euro 5+ et Euro 5",
-from2021: "À partir de 2021",
-from2024: "À partir de 2024",
-from2025: "À partir de 2025 (certains modèles 2024)",
-dedicated: "Référence dédiée",
-yamahaNote: "Note Yamaha : sur les modèles Euro 5+, le voyant peut s’éteindre au deuxième démarrage. Il s’agit du comportement normal de la stratégie de diagnostic Yamaha."
+skip: "Aller au contenu", navPrinciple: "Fonctionnement", navCompatibility: "Compatibilité", navInstallation: "Installation", navDistribution: "Distribution", languageLabel: "Langue", menu: "Menu", plugRide: "Plug’n Ride",
+heroTitle: "ACTIVEZ VOTRE ÉCHAPPEMENT RACING<br>EN UN CLIC.", heroCopy: "Sans reprogrammation. La gestion moteur d’origine reste intacte.", heroStatement: "Personne ne peut égaler l’intelligence de ceux qui ont conçu votre moto.", safeReversible: "Une solution Plug’n Ride sûre et réversible pour les motos Euro 5+.",
+galleryProduct: "SNAP · Plug’n Ride", galleryRider: "Connectez SNAP à votre moto.", galleryBike: "Échappement racing. Sans reprogrammation.", galleryInstalled: "La gestion moteur d’origine reste intacte.", galleryConnector: "Connexion à la prise diagnostic d’origine.", principleLabel: "Gestion moteur", fuelQuestion: "MÊME AVEC UN ÉCHAPPEMENT RACING,<br>L’ECU CONTINUE DE RÉGULER LE MÉLANGE.", yes: "Les sondes lambda d’origine restent connectées.", fuelAnswer: "La sonde qui contrôle le mélange continue de communiquer avec l’ECU, qui utilise ses signaux pour le corriger selon la gestion moteur d’origine.",
+installationLabel: "Diagnostic et installation", allActiveTitle: "TOUT RESTE<br>ACTIF.", allActiveCopy: "Toutes les fonctions de diagnostic d’origine de la moto restent opérationnelles.", sensorsTitle: "TOUTES LES SONDES DOIVENT<br>RESTER CONNECTÉES.", sensorsCopy1: "Les sondes lambda d’origine continuent de communiquer avec l’ECU de la moto.", sensorsCopy2: "La sonde après catalyseur doit rester connectée au faisceau, même lorsqu’elle est placée à l’extérieur de l’échappement racing.", sensorsCopy3: "SNAP se connecte à la prise diagnostic d’origine en quelques secondes, sans autre intervention.",
+compatibilityLabel: "Compatibilité", compatibilityTitle: "EURO 5+", compatibilityIntro: "La compatibilité dépend de la marque et de l’année du modèle.", compatHarley: "Compatible avec tous les modèles à partir de 2021.", compatOtherTitle: "Autres marques", compatBrands: "BMW, Honda, Kawasaki, Yamaha, Suzuki, Ducati, Triumph, Aprilia, Moto Guzzi, Piaggio, CFMOTO, KTM et Indian Motorcycle.", compatBrandsYears: "Compatible avec tous les modèles Euro 5+ à partir de 2025.",
+distributionLabel: "Distribution", distributionTitle: "DISTRIBUTION EXCLUSIVE<br>EN EUROPE.", distributionCopy: "SNAP est distribué en exclusivité en Europe par Parts Europe.", warningLabel: "Avertissements", warning1: "L’utilisation de l’échappement racing avec SNAP est exclusivement destinée à un usage sportif sur circuit fermé.", warning2: "L’échappement racing n’est pas homologué pour la route.", warning3: "Avant l’installation, vérifiez toujours la compatibilité avec la marque, le modèle et l’année de la moto.", backTop: "Retour en haut ↑"
 },
-
 es: {
-skip: "Ir al contenido",
-menu: "Menú",
-languageLabel: "Idioma",
-navPrinciple: "Principio",
-navCompatibility: "Compatibilidad",
-navInstallation: "Instalación",
-navDistribution: "Distribución",
-heroTitle: "Tu escape racing<br>en un clic.",
-heroStatement: "Todo el carácter del escape racing.<br>Toda la inteligencia de tu moto. <span>Intacta.</span>",
-heroCopy: "Instala un escape racing completo manteniendo intacta la gestión original del motor.",
-heroNoRemap: "No requiere reprogramación",
-plugRide: "Plug’n Ride",
-safeReversible: "Seguro y reversible",
-modernMotorcycles: "Motos de última generación",
-noRemap: "Sin reprogramación",
-originalEcu: "ECU original",
-principleLabel: "Principio",
-fuelQuestion: "¿La carburación se mantiene<br>correcta?",
-yes: "Sí.",
-fuelAnswer: "Las ECU de última generación, junto con las sondas lambda originales, controlan y corrigen continuamente la carburación en tiempo real, incluso con un escape racing.",
-compatibilityLabel: "Compatibilidad",
-compatibilityTitle: "Euro 5+",
-selectBrand: "Selecciona la marca.",
-installationLabel: "Diagnóstico e instalación",
-allActiveTitle: "Todo permanece<br>activo.",
-allActiveCopy: "Todas las funciones de diagnóstico originales de la moto siguen operativas.",
-sensorsTitle: "Todas las sondas deben<br>permanecer conectadas.",
-sensorsCopy1: "Las sondas lambda originales continúan trabajando con la ECU de la moto.",
-sensorsCopy2: "La sonda posterior al catalizador debe permanecer conectada al cableado, aunque se encuentre fuera del escape racing.",
-sensorsCopy3: "SNAP se conecta al puerto de diagnóstico original sin modificar el cableado de la moto.",
-distributionLabel: "Distribución",
-distributionTitle: "Distribución exclusiva<br>en Europa.",
-distributionCopy: "SNAP se distribuye en exclusiva en Europa a través de Parts Europe.",
-warningLabel: "Advertencias",
-warning1: "SNAP está destinado exclusivamente al uso deportivo en circuito cerrado.",
-warning2: "No está homologado para su uso en carretera.",
-warning3: "Antes de la instalación, comprueba siempre la compatibilidad con la marca, el modelo y el año de la motocicleta.",
-backTop: "Volver arriba ↑",
-models: "Modelos",
-years: "Años",
-code: "Referencia",
-allEuro5: "Todos los modelos Euro 5+",
-allEuro5and5: "Todos los modelos Euro 5+ y Euro 5",
-from2021: "Desde 2021",
-from2024: "Desde 2024",
-from2025: "Desde 2025 (algunos modelos 2024)",
-dedicated: "Referencia específica",
-yamahaNote: "Nota Yamaha: en los modelos Euro 5+ el testigo puede apagarse después del segundo arranque. Es el comportamiento normal de la estrategia de diagnóstico Yamaha."
+skip: "Saltar al contenido", navPrinciple: "Funcionamiento", navCompatibility: "Compatibilidad", navInstallation: "Instalación", navDistribution: "Distribución", languageLabel: "Idioma", menu: "Menú", plugRide: "Plug’n Ride",
+heroTitle: "ACTIVA EL ESCAPE RACING<br>CON UN CLIC.", heroCopy: "Sin reprogramación. La gestión original del motor se mantiene intacta.", heroStatement: "Nadie puede igualar la inteligencia de quienes diseñaron tu moto.", safeReversible: "Una solución Plug’n Ride segura y reversible para motos Euro 5+.",
+galleryProduct: "SNAP · Plug’n Ride", galleryRider: "Conecta SNAP a tu moto.", galleryBike: "Escape racing. Sin reprogramación.", galleryInstalled: "La gestión original del motor se mantiene intacta.", galleryConnector: "Conexión al puerto de diagnóstico original.", principleLabel: "Gestión del motor", fuelQuestion: "INCLUSO CON UN ESCAPE RACING,<br>LA ECU SIGUE REGULANDO LA MEZCLA.", yes: "Las sondas lambda originales permanecen conectadas.", fuelAnswer: "La sonda que controla la mezcla sigue comunicándose con la ECU, que utiliza sus señales para corregirla según la gestión original del motor.",
+installationLabel: "Diagnóstico e instalación", allActiveTitle: "TODO SIGUE<br>ACTIVO.", allActiveCopy: "Todas las funciones de diagnóstico originales de la moto siguen operativas.", sensorsTitle: "TODOS LOS SENSORES DEBEN<br>SEGUIR CONECTADOS.", sensorsCopy1: "Las sondas lambda originales siguen comunicándose con la ECU de la moto.", sensorsCopy2: "La sonda posterior al catalizador debe permanecer conectada al cableado, incluso cuando se coloca fuera del escape racing.", sensorsCopy3: "SNAP se conecta al puerto de diagnóstico original en pocos segundos, sin más intervenciones.",
+compatibilityLabel: "Compatibilidad", compatibilityTitle: "EURO 5+", compatibilityIntro: "La compatibilidad depende de la marca y del año del modelo.", compatHarley: "Compatible con todos los modelos desde 2021.", compatOtherTitle: "Otras marcas", compatBrands: "BMW, Honda, Kawasaki, Yamaha, Suzuki, Ducati, Triumph, Aprilia, Moto Guzzi, Piaggio, CFMOTO, KTM e Indian Motorcycle.", compatBrandsYears: "Compatible con todos los modelos Euro 5+ desde 2025.",
+distributionLabel: "Distribución", distributionTitle: "DISTRIBUCIÓN EXCLUSIVA<br>EN EUROPA.", distributionCopy: "SNAP se distribuye en exclusiva en Europa a través de Parts Europe.", warningLabel: "Advertencias", warning1: "El uso del escape racing con SNAP está destinado exclusivamente a la práctica deportiva en circuito cerrado.", warning2: "El escape racing no está homologado para su uso en carretera.", warning3: "Antes de la instalación, comprueba siempre la compatibilidad con la marca, el modelo y el año de la moto.", backTop: "Volver arriba ↑"
 }
 };
 
-const brands = [
-{
-name: "Harley-Davidson",
-modelKey: "allEuro5and5",
-yearKey: "from2021",
-code: "SN25ALL0000"
-},
-{
-name: "BMW",
-modelKey: "allEuro5",
-yearKey: "from2024",
-code: "SN25BMWCF00"
-},
-{
-name: "Honda",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25HONDA00",
-dedicated: true
-},
-{
-name: "Kawasaki",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25KAVA0000",
-dedicated: true
-},
-{
-name: "Yamaha",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000",
-noteKey: "yamahaNote"
-},
-{
-name: "Suzuki",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000"
-},
-{
-name: "Ducati",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000"
-},
-{
-name: "Triumph",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000"
-},
-{
-name: "Aprilia",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000"
-},
-{
-name: "Moto Guzzi",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000"
-},
-{
-name: "Piaggio",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25ALL0000"
-},
-{
-name: "CFMoto",
-modelKey: "allEuro5",
-yearKey: "from2025",
-code: "SN25CFM0000"
-}
-];
-
-const select = document.querySelector("#language-select");
-const brandList = document.querySelector("#brand-list");
+const languageSelect = document.querySelector("#language-select");
 const menuToggle = document.querySelector(".menu-toggle");
 const mobileMenu = document.querySelector("#mobile-menu");
 
-function renderBrands(language) {
-const t = translations[language];
-
-brandList.innerHTML = brands.map((brand, index) => {
-const panelId = `brand-panel-${index}`;
-
-return `
-<article class="brand-item">
-<button
-class="brand-button"
-type="button"
-aria-expanded="false"
-aria-controls="${panelId}"
->
-<span class="brand-number">
-${String(index + 1).padStart(2, "0")}
-</span>
-
-<span class="brand-name">${brand.name}</span>
-<span class="brand-icon" aria-hidden="true"></span>
-</button>
-
-<div class="brand-panel" id="${panelId}" hidden>
-<span aria-hidden="true"></span>
-
-<dl class="brand-data">
-<div>
-<dt>${t.models}</dt>
-<dd>${t[brand.modelKey]}</dd>
-</div>
-
-<div>
-<dt>${t.years}</dt>
-<dd>${t[brand.yearKey]}</dd>
-</div>
-
-<div>
-<dt>${t.code}</dt>
-<dd>
-${brand.code}
-${brand.dedicated ? ` · ${t.dedicated}` : ""}
-</dd>
-</div>
-
-${
-brand.noteKey
-? `<p class="brand-note">${t[brand.noteKey]}</p>`
-: ""
-}
-</dl>
-</div>
-</article>
-`;
-}).join("");
-
-brandList.querySelectorAll(".brand-button").forEach((button) => {
-button.addEventListener("click", () => {
-const expanded =
-button.getAttribute("aria-expanded") === "true";
-
-const panel = document.getElementById(
-button.getAttribute("aria-controls")
-);
-
-button.setAttribute(
-"aria-expanded",
-String(!expanded)
-);
-
-panel.hidden = expanded;
-});
-});
-}
-
 function setLanguage(language) {
 const lang = translations[language] ? language : "it";
-const t = translations[lang];
-
+const text = translations[lang];
 document.documentElement.lang = lang;
 
 document.querySelectorAll("[data-i18n]").forEach((element) => {
-const key = element.dataset.i18n;
-
-if (t[key]) {
-element.textContent = t[key];
-}
+const value = text[element.dataset.i18n];
+if (value) element.textContent = value;
 });
 
 document.querySelectorAll("[data-i18n-html]").forEach((element) => {
-const key = element.dataset.i18nHtml;
-
-if (t[key]) {
-element.innerHTML = t[key];
-}
+const value = text[element.dataset.i18nHtml];
+if (value) element.innerHTML = value;
 });
 
-select.value = lang;
-renderBrands(lang);
-localStorage.setItem("snap-language", lang);
+languageSelect.value = lang;
+try { localStorage.setItem("snap-language", lang); } catch (_) {}
 }
 
-select.addEventListener("change", (event) => {
-setLanguage(event.target.value);
-});
+languageSelect.addEventListener("change", (event) => setLanguage(event.target.value));
 
 menuToggle.addEventListener("click", () => {
-const open =
-menuToggle.getAttribute("aria-expanded") === "true";
-
-menuToggle.setAttribute(
-"aria-expanded",
-String(!open)
-);
-
+const open = menuToggle.getAttribute("aria-expanded") === "true";
+menuToggle.setAttribute("aria-expanded", String(!open));
 mobileMenu.hidden = open;
 document.body.classList.toggle("menu-open", !open);
 });
@@ -464,43 +81,27 @@ document.body.classList.remove("menu-open");
 });
 });
 
-document
-.querySelector(".back-to-top")
-.addEventListener("click", () => {
-window.scrollTo({
-top: 0,
-behavior: "smooth"
-});
+document.querySelector(".back-to-top").addEventListener("click", () => {
+window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-document.querySelector("#year").textContent =
-new Date().getFullYear();
+document.querySelector("#year").textContent = new Date().getFullYear();
 
-const observer = new IntersectionObserver(
-(entries) => {
+if ("IntersectionObserver" in window) {
+const observer = new IntersectionObserver((entries) => {
 entries.forEach((entry) => {
 if (entry.isIntersecting) {
 entry.target.classList.add("is-visible");
 observer.unobserve(entry.target);
 }
 });
-},
-{
-threshold: 0.08
+}, { threshold: 0.08 });
+document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
+} else {
+document.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
 }
-);
 
-document
-.querySelectorAll(".reveal")
-.forEach((element) => observer.observe(element));
-
-const savedLanguage =
-localStorage.getItem("snap-language");
-
-const browserLanguage =
-navigator.language.slice(0, 2);
-
-setLanguage(
-savedLanguage ||
-(translations[browserLanguage] ? browserLanguage : "it")
-);
+let savedLanguage = "it";
+try { savedLanguage = localStorage.getItem("snap-language") || "it"; } catch (_) {}
+const browserLanguage = (navigator.language || "it").slice(0, 2);
+setLanguage(translations[savedLanguage] ? savedLanguage : (translations[browserLanguage] ? browserLanguage : "it"));
